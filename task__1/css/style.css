@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+	font-family: "Lato";
+	color: #000000;
+	background-color: #ffffff;
+}
+
+[class*="__container"] {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.page__one {
+	margin-top: 25px;
+}
+
+.head__container {
+	margin-top: 25px;
+}
+.head__title {
+	font-size: 30px;
+}
+.head__subtitle {
+	font-size: 20px;
+}
+.list {
+	list-style-type: circle;
+}
+
+.head__input {
+}
+.input__container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 15px;
+}
+/* .input__container-task {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 20px;
+}
+.input__task-box {
+}
+.input__task-text {
+}
+.input__task-number {
+	outline: 1px solid;
+}
+.input__task-button {
+	display: flex;
+	gap: 22px;
+	margin-bottom: 20px;
+}
+.button {
+}
+.input__result-container {
+} */
+
+.result_1 {
+	display: flex;
+	background-color: #766b6b52;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+	gap: 10px;
+	align-items: stretch;
+	color: white;
+	font-size: 20px;
+}
+
+.list {
+	width: 50%;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.list_title {
+	margin-bottom: 10px;
+}
+.players-list {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #000;
+	height: 100%;
+	padding: 15px;
+	text-align: left;
+	gap: 5px;
+}
+
+.player-item {
+	display: flex;
+	border: 2px solid #000;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	gap: 15px;
+}
+
+.arrow {
+	position: relative;
+	width: 100px;
+	background: #1abc9c;
+	height: 30px;
+	color: #fff;
+	margin-right: 10px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.8;
+	cursor: pointer;
+}
+
+.arrow-right::after {
+	display: block;
+	content: "";
+	position: absolute;
+	right: -14px;
+	top: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid #1abc9c;
+}
+
+.arrow-left {
+	background-color: red;
+}
+.arrow-left::before {
+	content: "";
+	position: absolute;
+	left: -14px;
+	top: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid red;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
